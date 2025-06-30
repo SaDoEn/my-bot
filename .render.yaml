@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-bot
+    env: python
+    buildCommand: "poetry install"
+    startCommand: "python bot/main.py"
+    pythonVersion: 3.11.9
